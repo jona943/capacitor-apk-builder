@@ -1,0 +1,27 @@
+{
+  "appId": "app.nexu.messenger",
+  "appName": "Nexu",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "https://nexuhub.me/",
+    "errorPath": "error.html",
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 3000,
+      "launchAutoHide": true,
+      "backgroundColor": "#08090b",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": true,
+      "androidSpinnerStyle": "large",
+      "iosSpinnerStyle": "small",
+      "spinnerColor": "#ffffff",
+      "splashFullScreen": false,
+      "splashImmersive": false
+    }
+  }
+}

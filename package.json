@@ -1,0 +1,19 @@
+{
+  "name": "capacitor-apk-builder",
+  "version": "1.0.0",
+  "description": "Herramienta automatizada y portable para empaquetar web apps en APKs de Android",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'ready'",
+    "build:apk": "./build-apk.sh"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/splash-screen": "^7.0.5"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5"
+  }
+}

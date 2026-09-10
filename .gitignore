@@ -1,0 +1,43 @@
+# ============================================================================
+# NEXU APK ENGINE — GITIGNORE CONFIGURATION
+# Ignora binarios pesados, SDKs, JDKs, dependencias y caches de compilación
+# ============================================================================
+
+# 1. Dependencias Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 2. Entornos Binarios Pesados Portables (JDK / Android SDK)
+.jdk/
+.android-sdk/
+
+# 3. Activos Web Generados
+www/
+dist/
+
+# 4. Archivos de Compilación Android & Gradle
+android/.gradle/
+android/build/
+android/app/build/
+android/captures/
+android/.idea/
+android/*.iml
+android/app/*.iml
+
+# 5. Activos Sincronizados de Capacitor
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+
+# 6. Binarios APK sueltos en raíz (Permite respaldar la carpeta versiones_apk/)
+/Nexu_v*.apk
+*.aab
+
+# 7. Archivos de Sistema Operativo e IDEs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
